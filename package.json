@@ -1,0 +1,25 @@
+{
+  "name": "peliculasnode",
+  "version": "1.0.0",
+  "description": "peliculas api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dyego",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.1",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.25.3",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
